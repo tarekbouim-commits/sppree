@@ -1,0 +1,19 @@
+{
+  "name": "gestservice",
+  "main": "index.html",
+  "version": "1.0.0",
+  "window": {
+    "title": "GestService — Courriers & Réunions",
+    "width": 1280,
+    "height": 800,
+    "min_width": 900,
+    "min_height": 600,
+    "icon": "icons/icon-512.png",
+    "show": true,
+    "frame": true,
+    "resizable": true,
+    "fullscreen": false,
+    "kiosk": false
+  },
+  "chromium-args": "--disable-features=InfiniteSessionRestore"
+}
